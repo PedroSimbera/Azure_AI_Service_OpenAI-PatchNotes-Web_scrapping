@@ -39,11 +39,11 @@ def extract_text_from_html(path_notes):
 
 extract_text_from_html(path_notes)
 
-!pip install langchain openai
+'''!pip install langchain openai
 
 !pip show langchain openai
 
-!pip install langchain-community
+!pip install langchain-community'''
 
 from langchain.chat_models import AzureChatOpenAI
 
